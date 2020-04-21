@@ -1,0 +1,509 @@
+body{
+	background-color: grey;
+}
+.container{
+	height: 1176px;
+	width: 1200px;
+	background: white;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid black;
+}
+.Asider{
+	background-color: #006B53;
+	height: 1176px;
+	width: 300px;
+	text-align: center;
+
+}
+.imger{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background-color: white;
+	margin: 0 auto;
+	border: 2.5px solid black;
+}
+.headers{
+	height: 100px;
+	width: 900px;
+	display: flex;
+	align-items: center;
+	background-color: #006B53;
+
+}
+.about, .resume, .portfolio, .blog, .contact{
+	font-size: 20px;
+	margin-right: 0px;
+	margin-left: 90px;
+	align-items: center;
+}
+.info{
+	height: 40px;
+	width: 150px;
+	background-color: #ffff00;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+.block{
+	height: 500px;
+	width: 900px;
+	display: grid;
+	background-color: #34D2AF;
+
+}
+.left{
+	display: block;
+}
+.inv_info{
+	height: 40px;
+	width: 900px;
+}
+.about_text{
+	margin-left: 1em;
+}
+.me{
+	margin-top: 1.5em;
+	margin-left: 3em;
+	margin-right: 3em;
+
+	height: 400px;
+	background-color:  #34D2AF;
+}
+.h3_me{
+	margin-left: 1em;
+	font-size: 22px;
+	margin-right: 1em;
+}
+.p_me{
+	margin-left: 1em;
+	font-size: 18px;
+	margin-right: 1em;
+}
+.Web_Desing, .animation, .text_desing, .Web_craft{
+	width: 200px;
+	height: 455px;
+}
+.content{
+	display: block;
+	height: 100%;
+	width: 900px;
+	background-color:  #34D2AF;
+}
+.Servis{
+	height: 50px;
+	width: 900px;
+	font-size: 28px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	align-items: center;
+}
+.Web{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	background-color:  #34D2AF;
+	height: 100%;
+}
+.color{
+
+}
+.white{
+
+}
+.footer{
+	background-color: #A93CD4;
+}
+.hard_con{
+	height: 300px;
+	width: 300px;
+
+}
+.standart{
+	height: 50px;
+	width: 270px;
+	display: flex;
+	margin-left: 22px;
+
+
+}
+.one, .two, .three, .four, .five{
+	height: 50px;
+	width: 50px;
+	border-top: 2.5px solid black;
+	border-bottom: 2.5px solid black;
+
+}
+.one{
+	background-color: #7C07A9;
+	border-left: 2.5px solid black;
+}
+.two{
+	background-color: #65247F;
+}
+.three{
+	background-color: #50026E;
+}
+.four{
+	background-color: #A93CD4;
+}
+.five{
+	background-color: #B564D4;
+	border-right: 2.5px solid black }
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+}
+.h3_s{}
+.p_s{
+	font-size: 18px;
+}
+.yel{
+	margin: 0;
+	margin-top: 2px;
+}
+.yone, .ytwo, .ythree, .yfour, .yfive{
+	height: 50px;
+	width: 50px;
+	border-top: 2.5px solid black;
+	border-bottom: 2.5px solid black;
+
+}
+.yone{
+	background-color: #FFDD00;
+	border-left: 2.5px solid black;
+}
+.ytwo{
+	background-color: #BFAC30;
+}
+.ythree{
+	background-color: #A68F00;
+}
+.yfour{
+	background-color: #FFE540;
+}
+.yfive{
+	background-color: #FFEC73;
+	border-right: 2.5px solid black 
+}
+.yellow{
+	display: flex;
+	margin-left: 22px;
+}
+.gre{
+	margin: 0;
+	margin-top: 2px;
+}
+.gone, .gtwo, .gthree, .gfour, .gfive{
+	height: 50px;
+	width: 50px;
+	border-top: 2.5px solid black;
+	border-bottom: 2.5px solid black;
+
+}
+.gone{
+	background-color: #CFF700;
+	border-left: 2.5px solid black;
+}
+.gtwo{
+	background-color: #A3B92E;
+}
+.gthree{
+	background-color: #87A000;
+}
+.gfour{
+	background-color: #DDFB3F;
+}
+.gfive{
+	background-color: #E5FB71;
+	border-right: 2.5px solid black 
+}
+.green{
+	display: flex;
+	margin-left: 22px;
+}
+.oone, .otwo, .othree, .ofour, .ofive{
+	height: 50px;
+	width: 50px;
+	border-top: 2.5px solid black;
+	border-bottom: 2.5px solid black;
+
+}
+.oone{
+	background-color: #FF5600;
+	border-left: 2.5px solid black;
+}
+.otwo{
+	background-color: #BF6030;
+}
+.othree{
+	background-color: #A63800;
+}
+.ofour{
+	background-color: #FF8040;
+}
+.ofive{
+	background-color: #FFA273;
+	border-right: 2.5px solid black 
+}
+.org{
+	margin: 0;
+	margin-top: 2px;
+}
+.orange{
+	display: flex;
+	margin-left: 22px;
+}
+.bone, .btwo, .bthree, .bfour, .bfive{
+	height: 50px;
+	width: 50px;
+	border-top: 2.5px solid black;
+	border-bottom: 2.5px solid black;
+
+}
+.bone{
+	background-color: #00A480;
+	border-left: 2.5px solid black;
+}
+.btwo{
+	background-color: #1F7B67;
+}
+.bthree{
+	background-color: #006B53;
+}
+.bfour{
+	background-color: #34D2AF;
+}
+.bfive{
+	background-color: #5ED2B8;
+	border-right: 2.5px solid black 
+}
+.blu{
+	margin: 0;
+	margin-top: 2px;
+}
+.blue{
+	display: flex;
+	margin-left: 22px;
+}
+/*		NEW PAGE 
+		RESUBE
+*/
+.block_resub{
+	background-color: #A93CD4;
+	height: 100%;
+}
+.content_resub{
+	background-color: #A93CD4;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30px;
+}
+.row_resub{
+	height: 640px;
+	background: #7C07A9;
+	width: 270px;
+	display: block;
+}
+.clear{
+	margin: 0px;
+	padding: 0px;
+}
+.resume_h1{
+	margin-left: 20px;
+	padding-top: 10px;
+}
+.block_row_resub{
+
+	height: 190px;
+}
+.name_row{
+	margin: 0px;
+	padding-top: 10px;
+	margin-left: 20px;
+}
+.resube_h3{
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+.resube_h1_two{
+	margin-left: 20px;
+	font-size: 30px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+.resube_text_row{
+	margin-left: 20px;
+	font-size: 16px;
+	margin-top: 5px;	
+}
+.black{
+	border-bottom: 1px solid black;
+
+}
+.lings{
+	background: -moz-linear-gradient(top, #333, #999); /* Fx 3.6+ */
+    background: -webkit-linear-gradient(top, #333, #999); /* Chrome 10+,Safari 5.1+ */
+    background: -o-linear-gradient(top, #333,#999); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #333, #999); /* IE10+ */
+    background: linear-gradient(to bottom, #333, #999); /* W3C */
+    border: 1px solid #333; /* Рамка */
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 250px; /* Высота */
+    border-radius: 10px; /* Радиус скругления */
+    position: relative; /* Относительное позиционирование */
+    overflow: hidden; /* Прячем ненужную тень */
+    margin-top: 2px;
+}
+.lings::before{
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    height: 18px; width: 170px;
+    background: #5bc1fe; /* Для старых браузеров */
+    background: -moz-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* Fx 3.6+ */
+    background: -webkit-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* Chrome 10+,Safari 5.1+ */
+    background: -o-linear-gradient(top, #5bc1fe,#018ef2 50%,#57befd); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* IE10+ */
+    background: linear-gradient(to bottom, #5bc1fe,#018ef2 50%, #57befd); /* W3C */
+    border: 1px solid #008DF2; /* Рамка */
+    box-shadow: 3px 0 3px rgba(0,0,0,0.5); /* Тень справа */
+   }
+.h5{
+	margin: 0px;
+	font-size: 20px;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+.h6{
+	margin: 0px;
+	font-size: 16px;
+	margin-left: 20px;
+	padding-top: 15px;
+}
+.lingss{
+	background: -moz-linear-gradient(top, #333, #999); /* Fx 3.6+ */
+    background: -webkit-linear-gradient(top, #333, #999); /* Chrome 10+,Safari 5.1+ */
+    background: -o-linear-gradient(top, #333,#999); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #333, #999); /* IE10+ */
+    background: linear-gradient(to bottom, #333, #999); /* W3C */
+    border: 1px solid #333; /* Рамка */
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 250px; /* Высота */
+    border-radius: 10px; /* Радиус скругления */
+    position: relative; /* Относительное позиционирование */
+    overflow: hidden; /* Прячем ненужную тень */
+    margin-top: 2px;
+}
+.lingss::before{
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    height: 18px; width: 100px;
+    background: #5bc1fe; /* Для старых браузеров */
+    background: -moz-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* Fx 3.6+ */
+    background: -webkit-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* Chrome 10+,Safari 5.1+ */
+    background: -o-linear-gradient(top, #5bc1fe,#018ef2 50%,#57befd); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* IE10+ */
+    background: linear-gradient(to bottom, #5bc1fe,#018ef2 50%, #57befd); /* W3C */
+    border: 1px solid #008DF2; /* Рамка */
+    box-shadow: 3px 0 3px rgba(0,0,0,0.5); /* Тень справа */
+   }
+.lingsss{
+	background: -moz-linear-gradient(top, #333, #999); /* Fx 3.6+ */
+    background: -webkit-linear-gradient(top, #333, #999); /* Chrome 10+,Safari 5.1+ */
+    background: -o-linear-gradient(top, #333,#999); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #333, #999); /* IE10+ */
+    background: linear-gradient(to bottom, #333, #999); /* W3C */
+    border: 1px solid #333; /* Рамка */
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 250px; /* Высота */
+    border-radius: 10px; /* Радиус скругления */
+    position: relative; /* Относительное позиционирование */
+    overflow: hidden; /* Прячем ненужную тень */
+    margin-top: 2px;
+}
+.lingsss::before{
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    height: 18px; width: 220px;
+    background: #5bc1fe; /* Для старых браузеров */
+    background: -moz-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* Fx 3.6+ */
+    background: -webkit-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* Chrome 10+,Safari 5.1+ */
+    background: -o-linear-gradient(top, #5bc1fe,#018ef2 50%,#57befd); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* IE10+ */
+    background: linear-gradient(to bottom, #5bc1fe,#018ef2 50%, #57befd); /* W3C */
+    border: 1px solid #008DF2; /* Рамка */
+    box-shadow: 3px 0 3px rgba(0,0,0,0.5); /* Тень справа */
+   }
+.lingssss{
+	background: -moz-linear-gradient(top, #333, #999); /* Fx 3.6+ */
+    background: -webkit-linear-gradient(top, #333, #999); /* Chrome 10+,Safari 5.1+ */
+    background: -o-linear-gradient(top, #333,#999); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #333, #999); /* IE10+ */
+    background: linear-gradient(to bottom, #333, #999); /* W3C */
+    border: 1px solid #333; /* Рамка */
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 250px; /* Высота */
+    border-radius: 10px; /* Радиус скругления */
+    position: relative; /* Относительное позиционирование */
+    overflow: hidden; /* Прячем ненужную тень */
+    margin-top: 2px;
+}
+.lingssss::before{
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    height: 18px; width: 190px;
+    background: #5bc1fe; /* Для старых браузеров */
+    background: -moz-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* Fx 3.6+ */
+    background: -webkit-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* Chrome 10+,Safari 5.1+ */
+    background: -o-linear-gradient(top, #5bc1fe,#018ef2 50%,#57befd); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* IE10+ */
+    background: linear-gradient(to bottom, #5bc1fe,#018ef2 50%, #57befd); /* W3C */
+    border: 1px solid #008DF2; /* Рамка */
+    box-shadow: 3px 0 3px rgba(0,0,0,0.5); /* Тень справа */
+   }
+.lingsssss{
+	background: -moz-linear-gradient(top, #333, #999); /* Fx 3.6+ */
+    background: -webkit-linear-gradient(top, #333, #999); /* Chrome 10+,Safari 5.1+ */
+    background: -o-linear-gradient(top, #333,#999); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #333, #999); /* IE10+ */
+    background: linear-gradient(to bottom, #333, #999); /* W3C */
+    border: 1px solid #333; /* Рамка */
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 250px; /* Высота */
+    border-radius: 10px; /* Радиус скругления */
+    position: relative; /* Относительное позиционирование */
+    overflow: hidden; /* Прячем ненужную тень */
+    margin-top: 2px;
+}
+.lingsssss::before{
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    height: 18px; width: 20px;
+    background: #5bc1fe; /* Для старых браузеров */
+    background: -moz-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* Fx 3.6+ */
+    background: -webkit-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* Chrome 10+,Safari 5.1+ */
+    background: -o-linear-gradient(top, #5bc1fe,#018ef2 50%,#57befd); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #5bc1fe, #018ef2 50%, #57befd); /* IE10+ */
+    background: linear-gradient(to bottom, #5bc1fe,#018ef2 50%, #57befd); /* W3C */
+    border: 1px solid #008DF2; /* Рамка */
+    box-shadow: 3px 0 3px rgba(0,0,0,0.5); /* Тень справа */
+   }
