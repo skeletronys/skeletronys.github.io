@@ -2,12 +2,34 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link href="styles/ihover.css" rel="stylesheet">
 	<title>portfolio</title>
 </head>
 <body>
+	<div id="loader" onclick="change()" class="loader" >
+	<div class="loader-inner">
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<p #="blinkl" class="blink">CLICK ANYWHERE</p>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+		<div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		</div>
+	</div>
+</div>
+
 	<div class="container wow bounceInLeft data-wow-duration=2">
 		<div class="Asider">
 			<h1 class="white wow fadeInLeft">Микицей Євген</h1>
@@ -56,6 +78,7 @@
 						<div class="bfour"></div>
 						<div class="bfive"></div>
 					</div>
+					<div class="wodyx"></div>
 				</div>
 			</div>
 		</div>
@@ -64,7 +87,6 @@
 					<div class="about"><a href="index.html">Про мене</a></div>
 					<div class="resume"><a href="resub/resub.html">Резюме</a></div>
 					<div class="portfolio"><a href="port/port.html">Портфоліо</a></div>
-					<div class="blog">Блог</div>
 					<div class="contact"><a href="cont/contact.html">Контакти</a></div>
 					
 				</div>
@@ -144,4 +166,8 @@
   <script type="text/javascript">
   	
   </script>
+<script>
+	function change(){
+	document.getElementById("loader").style.display="none";}
+</script>
 </html>

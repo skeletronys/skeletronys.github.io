@@ -64,12 +64,45 @@
 					<div class="about"><a href="../index.html">Про мене</a></div>
 					<div class="resume"><a href="../resub/resub.html">Резюме</a></div>
 					<div class="portfolio"><a href="../port/port.html">Портфоліо</a></div>
-					<div class="blog">Блог</div>
 					<div class="contact"><a href="../cont/contact.html">Контакти</a></div>
 					
 				</div>
-				
+				<div class="con_tact">
+					<b class="text_con vh">Звязатися з мною можна по цій формі або...</b>
+					<p class="text_con_text vh">м.Івано-Франківськ</p>
+					<p class="text_con_text vh">mykytcey@gmail.com</p>
+					<div id="w">
+						<h1 class="vh">Відправити письмо !</h1>
+						<form id="contactform" name="contact" method="post" action="#">
+						<p class="note"><span class="req">*</span> Поля з зірочкою обов'язкові для заповнення</p>
+						<div class="row">
+						<label for="name" class="whites">Ваше Імя <span class="req">*</span></label>
+						<input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="Імя" required>
+						</div>
+
+						<div class="row">
+<label for="email" class="whites">E-mail Адрес <span class="req">*</span></label>
+<input type="email" name="email" id="email" class="txt" tabindex="2" placeholder=" address@gmail.com" required>
+</div>
+
+<div class="row">
+<label for="subject" class="whites">Тема <span class="req">*</span></label>
+<input type="text" name="subject" id="subject" class="txt" tabindex="3" placeholder="Тема повідомлення" required>
+</div>
+
+<div class="row">
+<label for="message" class="whites">Повідомлення <span class="req">*</span></label>
+<textarea name="message" id="message" class="txtarea" tabindex="4" required></textarea>
+</div>
+
+<div class="center">
+<input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Відправити повідомлення" class="dopd">
+</div>
+</form>
+</div>
+				</div>
 		</div>
+		
 	</div>
 </body>
  <script src="wow.min.js"></script>

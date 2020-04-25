@@ -2,7 +2,7 @@ body{
 	background-color: grey;
 }
 .container{
-	height: 1172px;
+	height: 100%;
 	width: 1200px;
 	background: white;
 	margin: 0 auto;
@@ -11,7 +11,6 @@ body{
 }
 .Asider{
 	background-color: #7C07A9;
-	height: 1172px;
 	width: 300px;
 	text-align: center;
 
@@ -30,12 +29,11 @@ body{
 	display: flex;
 	align-items: center;
 	background-color: #7C07A9;
+	justify-content: space-around;
 
 }
 .about, .resume, .portfolio, .blog, .contact{
 	font-size: 20px;
-	margin-right: 0px;
-	margin-left: 90px;
 	align-items: center;
 }
 .info{
@@ -47,7 +45,7 @@ body{
 	align-items: center;
 }
 .block{
-	height: 500px;
+	height: 100%;
 	width: 900px;
 	display: grid;
 	background-color: #A93CD4;
@@ -55,7 +53,7 @@ body{
 }
 .left{
 	display: block;
-	height: 863px;
+	height: 100%;
 }
 .inv_info{
 	height: 40px;
@@ -84,13 +82,14 @@ body{
 }
 .Web_Desing, .animation, .text_desing, .Web_craft{
 	width: 200px;
-	height: 455px;
+	height: 100%;
 }
 .content{
 	display: block;
-	height: 550px;
+	height: 100%;
 	width: 900px;
 	background-color: #A93CD4;
+
 }
 .Servis{
 	height: 50px;
@@ -107,7 +106,7 @@ body{
 	justify-content: space-around;
 	text-align: center;
 	background-color: #A93CD4;
-	height: 100%;
+
 }
 .color{
 
@@ -119,7 +118,7 @@ body{
 	background-color: #A93CD4;
 }
 .hard_con{
-	height: 300px;
+	height: 100%;
 	width: 300px;
 
 }
@@ -301,10 +300,11 @@ a{
 }
 .content_resub{
 	background-color: #A93CD4;
-	height: 823px;
+	height: 100%;
 	display: flex;
 	justify-content: space-around;
 	padding-top: 30px;
+	padding-bottom: 5vh;
 }
 .row_resub{
 	height: 640px;
@@ -346,6 +346,7 @@ a{
 	margin-left: 20px;
 	font-size: 16px;
 	margin-top: 5px;	
+
 }
 .black{
 	border-bottom: 1px solid black;
@@ -540,11 +541,12 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-left: 2vh;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #A93CD4;
+  background-color: #7C07A9;
 }
 
 /* Add a background color and some padding around the form */
@@ -619,4 +621,195 @@ input[type=submit]:hover {
 	padding: 0px;
 	margin: 0px;
 	font-size: 20px;
+}
+.wodyx{
+	width: 300px;
+	height: 
+}
+.con_tact{
+	background-color: #A93CD4;
+}
+form .row {
+display: block;
+padding: 7px 8px;
+margin-bottom: 7px;
+}
+form .row:hover {
+background: #7C07A9;
+}
+
+form label {
+display: inline-block;
+font-size: 1.2em;
+font-weight: bold;
+width: 18vh;
+padding: 6px 0;
+color: #464646;
+vertical-align: top;
+}
+form .req { color: red; }
+
+form .note {
+font-size: 1.2em;
+line-height: 1.33em;
+font-weight: normal;
+padding: 2px 7px;
+margin-bottom: 10px;
+}
+
+form input:focus, form textarea:focus { outline: none; }
+
+/* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
+::-webkit-input-placeholder { color: black; font-style: italic; } /* WebKit */
+:-moz-placeholder { color: black; font-style: italic; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: black; font-style: italic; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder { color: black; font-style: italic; } /* Internet Explorer 10+ */
+
+form .txt {
+display: inline-block;
+padding: 8px 9px;
+padding-right: 30px;
+width: 240px;
+font-family: 'Oxygen', sans-serif;
+font-size: 1.35em;
+font-weight: normal;
+color: grey;
+}
+.vh{
+	margin-left: 1vh;
+}
+.text_con{
+	font-size: 30px;
+}
+.text_con_text{
+	font-size: 18px;
+}
+.center{
+	padding-bottom: 1vh;
+}
+.whites{
+	color: orange;
+}
+.info{
+	height: 20vh;
+	width: 20vh;
+}
+.loader {
+    background: #310062;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+    animation: display 3s;
+}
+.blink{
+  width:300px;
+  font-size: 30px;
+  margin-top: 90px;
+  margin-left: -80px;
+  color: white;
+}
+ .blink {
+    animation: blink 2s infinite; /* Параметры анимации */
+   }
+   @keyframes blink {
+    from { opacity: 1; /* Непрозрачный текст */ }
+    to { opacity: 0; /* Прозрачный текст */ }
+   }
+.loader-inner {
+    bottom: 0;
+    height: 60px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+
+.loader-line-wrap {
+    animation: 
+    spin 2000ms cubic-bezier(.175, .885, .32, 1.275) infinite
+  ;
+    box-sizing: border-box;
+    height: 50px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transform-origin: 50% 100%;
+    width: 100px;
+}
+.loader-line {
+    border: 4px solid transparent;
+    border-radius: 100%;
+    box-sizing: border-box;
+    height: 100px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+.loader-line-wrap:nth-child(1) { animation-delay: -50ms; }
+.loader-line-wrap:nth-child(2) { animation-delay: -100ms; }
+.loader-line-wrap:nth-child(3) { animation-delay: -150ms; }
+.loader-line-wrap:nth-child(4) { animation-delay: -200ms; }
+.loader-line-wrap:nth-child(5) { animation-delay: -250ms; }
+
+.loader-line-wrap:nth-child(1) .loader-line {
+    border-color: hsl(0, 80%, 60%);
+    height: 90px;
+    width: 90px;
+    top: 7px;
+}
+.loader-line-wrap:nth-child(2) .loader-line {
+    border-color: hsl(60, 80%, 60%);
+    height: 76px;
+    width: 76px;
+    top: 14px;
+}
+.loader-line-wrap:nth-child(3) .loader-line {
+    border-color: hsl(120, 80%, 60%);
+    height: 62px;
+    width: 62px;
+    top: 21px;
+}
+.loader-line-wrap:nth-child(4) .loader-line {
+    border-color: hsl(180, 80%, 60%);
+    height: 48px;
+    width: 48px;
+    top: 28px;
+}
+.loader-line-wrap:nth-child(5) .loader-line {
+    border-color: hsl(240, 80%, 60%);
+    height: 34px;
+    width: 34px;
+    top: 35px;
+}
+
+@keyframes spin {
+    0%, 15% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes display{
+    0%{
+        display: block;
+    }
+    100%{
+        display: none;
+    }
+}
+@media (min-width: 300px) and (max-width: 800px){
+	.Asider{
+		display: none;
+	}
 }
