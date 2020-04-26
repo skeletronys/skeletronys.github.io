@@ -10,8 +10,7 @@ body{
 	border: 1px solid black;
 }
 .Asider{
-	background-color: #A63800;
-	height: 100%;
+	background-color: #BF6030;
 	width: 300px;
 	text-align: center;
 
@@ -29,13 +28,12 @@ body{
 	width: 900px;
 	display: flex;
 	align-items: center;
-	background-color: #A63800;
+	background-color: #BF6030;
+	justify-content: space-around;
 
 }
 .about, .resume, .portfolio, .blog, .contact{
 	font-size: 20px;
-	margin-right: 0px;
-	margin-left: 90px;
 	align-items: center;
 }
 .info{
@@ -47,14 +45,15 @@ body{
 	align-items: center;
 }
 .block{
-	height: 500px;
+	height: 100%;
 	width: 900px;
 	display: grid;
-	background-color:  #BF6030;
+	background-color: #FF8040;
 
 }
 .left{
 	display: block;
+	height: 100%;
 }
 .inv_info{
 	height: 40px;
@@ -69,7 +68,7 @@ body{
 	margin-right: 3em;
 
 	height: 400px;
-	background-color:  #BF6030;
+	background-color: #FF8040;
 }
 .h3_me{
 	margin-left: 1em;
@@ -83,13 +82,14 @@ body{
 }
 .Web_Desing, .animation, .text_desing, .Web_craft{
 	width: 200px;
-	height: 455px;
+	height: 100%;
 }
 .content{
 	display: block;
 	height: 100%;
 	width: 900px;
-	background-color: #BF6030;
+	background-color: #FF8040;
+
 }
 .Servis{
 	height: 50px;
@@ -105,8 +105,8 @@ body{
 	align-items: center;
 	justify-content: space-around;
 	text-align: center;
-	background-color: #BF6030;
-	height: 100%;
+	background-color: #FF8040;
+
 }
 .color{
 
@@ -115,10 +115,10 @@ body{
 
 }
 .footer{
-	background-color:  #BF6030;
+	background-color: #FF8040;
 }
 .hard_con{
-	height: 300px;
+	height: 100%;
 	width: 300px;
 
 }
@@ -295,19 +295,20 @@ a{
 		RESUBE
 */
 .block_resub{
-	background-color: #A93CD4;
+	background-color: #FF8040;
 	height: 100%;
 }
 .content_resub{
-	background-color: #A93CD4;
+	background-color: #FF8040;
 	height: 100%;
 	display: flex;
 	justify-content: space-around;
 	padding-top: 30px;
+	padding-bottom: 5vh;
 }
 .row_resub{
 	height: 640px;
-	background: #7C07A9;
+	background: #BF6030;
 	width: 270px;
 	display: block;
 }
@@ -345,6 +346,7 @@ a{
 	margin-left: 20px;
 	font-size: 16px;
 	margin-top: 5px;	
+
 }
 .black{
 	border-bottom: 1px solid black;
@@ -507,3 +509,188 @@ a{
     border: 1px solid #008DF2; /* Рамка */
     box-shadow: 3px 0 3px rgba(0,0,0,0.5); /* Тень справа */
    }
+/* NEW PAGEEEEE */
+.ll{
+	margin-left: 20px;
+	font-size: 18px;
+	margin-top: 0px;
+}
+.contact_container{
+	background-color: #FF8040;
+	height: 413px;
+}
+.dop{
+	font-size: 26px;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #FF8040;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 2vh;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #BF6030;
+}
+
+/* Add a background color and some padding around the form */
+.dops {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.container_por{
+	background-color: #FF8040;
+	height: 900px;
+
+}
+.img{
+	float:left;
+	-webkit-transition-duration: 0.5s;
+	}
+.img img{
+	padding:10px;
+	border:1px solid #fff;
+}
+.img:hover{
+	-webkit-transform:scale(0.8);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+}	
+.img .mask{
+	width: 572px;
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	height: 372px;  
+	opacity:0.6;
+	cursor:pointer;
+	-webkit-transition-duration: 0.5s;
+}
+#img-1:hover .mask{
+	height:0%;	
+}
+#img-2:hover .mask{
+	height:0%;	
+	margin-top:130px;
+}
+#img-3 #mask-1 {
+	width:50%;
+}
+#img-3 #mask-2{
+	width:50%;
+	margin-left:211px;
+}
+#img-3:hover #mask-1{
+	width:0%;
+}
+#img-3:hover #mask-2{
+	margin-left:430px;
+	width:0%;
+}
+.pro_1{
+	height: 400px;
+	width: 700px;
+	padding-top: 50px;
+	margin-left: 150px;
+}
+.pro_2{
+	height: 400px;
+	width: 700px;
+	margin-left: 150px;
+}
+.img_p{
+	width: 550px;
+	height: 350px;
+}
+.sssss{
+	padding: 0px;
+	margin: 0px;
+	font-size: 20px;
+}
+.wodyx{
+	width: 300px;
+	height: 
+}
+.con_tact{
+	background-color: #FF8040;
+}
+form .row {
+display: block;
+padding: 7px 8px;
+margin-bottom: 7px;
+}
+form .row:hover {
+background: #BF6030;
+}
+
+form label {
+display: inline-block;
+font-size: 1.2em;
+font-weight: bold;
+width: 170px;
+padding: 6px 0;
+color: #464646;
+vertical-align: top;
+}
+form .req { color: red; }
+
+form .note {
+font-size: 1.2em;
+line-height: 1.33em;
+font-weight: normal;
+padding: 2px 7px;
+margin-bottom: 10px;
+}
+
+form input:focus, form textarea:focus { outline: none; }
+
+/* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
+::-webkit-input-placeholder { color: black; font-style: italic; } /* WebKit */
+:-moz-placeholder { color: black; font-style: italic; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: black; font-style: italic; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder { color: black; font-style: italic; } /* Internet Explorer 10+ */
+
+form .txt {
+display: inline-block;
+padding: 8px 9px;
+padding-right: 30px;
+width: 240px;
+font-family: 'Oxygen', sans-serif;
+font-size: 1.35em;
+font-weight: normal;
+color: grey;
+}
+.vh{
+	margin-left: 1vh;
+}
+.text_con{
+	font-size: 30px;
+}
+.text_con_text{
+	font-size: 18px;
+}
+.center{
+	padding-bottom: 1vh;
+}
+.whites{
+	color: black;
+}
+.info{
+	height: 200px;
+	width: 200px;
+}

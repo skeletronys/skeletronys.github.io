@@ -642,7 +642,7 @@ form label {
 display: inline-block;
 font-size: 1.2em;
 font-weight: bold;
-width: 18vh;
+width: 170px;
 padding: 6px 0;
 color: #464646;
 vertical-align: top;
@@ -691,8 +691,8 @@ color: grey;
 	color: orange;
 }
 .info{
-	height: 20vh;
-	width: 20vh;
+	height: 200px;
+	width: 200px;
 }
 .loader {
     background: #310062;
@@ -809,7 +809,5 @@ color: grey;
     }
 }
 @media (min-width: 300px) and (max-width: 800px){
-	.Asider{
-		display: none;
-	}
+
 }
