@@ -1,0 +1,26 @@
+.container_randon{
+	margin-left: 40%;
+}
+.container{
+	height: 100%;
+	width: 100%;
+}
+#random{
+	margin-left: 119px;
+}
+.nazad{
+	margin-left: 73px;
+	position: relative;
+	top: 60px;
+	color: black;
+}
+a{
+		text-decoration: none;
+}
+#number{
+	margin-left: 50px;
+}
+.finger{
+	margin-top: 50px;
+	margin-left: -70px;
+}

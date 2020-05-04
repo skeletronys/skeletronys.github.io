@@ -19,9 +19,7 @@ body{
 	height: 150px;
 	width: 150px;
 	border-radius: 50%;
-	background-color: white;
 	margin: 0 auto;
-	border: 2.5px solid black;
 }
 .headers{
 	height: 100px;
@@ -121,12 +119,14 @@ body{
 	height: 100%;
 	width: 300px;
 
+
 }
 .standart{
 	height: 50px;
 	width: 270px;
 	display: flex;
 	margin-left: 22px;
+
 
 
 }
@@ -166,6 +166,7 @@ a{
 .yel{
 	margin: 0;
 	margin-top: 2px;
+
 }
 .yone, .ytwo, .ythree, .yfour, .yfive{
 	height: 50px;
@@ -198,6 +199,7 @@ a{
 .gre{
 	margin: 0;
 	margin-top: 2px;
+
 }
 .gone, .gtwo, .gthree, .gfour, .gfive{
 	height: 50px;
@@ -254,6 +256,7 @@ a{
 .org{
 	margin: 0;
 	margin-top: 2px;
+
 }
 .orange{
 	display: flex;
@@ -286,6 +289,7 @@ a{
 .blu{
 	margin: 0;
 	margin-top: 2px;
+
 }
 .blue{
 	display: flex;
@@ -669,7 +673,7 @@ form .txt {
 display: inline-block;
 padding: 8px 9px;
 padding-right: 30px;
-width: 240px;
+width: 250px;
 font-family: 'Oxygen', sans-serif;
 font-size: 1.35em;
 font-weight: normal;
@@ -791,7 +795,6 @@ color: grey;
     width: 34px;
     top: 35px;
 }
-
 @keyframes spin {
     0%, 15% {
     transform: rotate(0);

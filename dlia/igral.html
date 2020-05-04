@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styleTwo.css">
+	<title>Igra</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="container">
+		<div class="container_randon">
+			<div id="random"></div>
+			<a href="main.html"><div class="nazad">Повернутися</div></a>
+			<input  id="number">
+			<div class="info">
+			<img class="finger" src="finger.jpg">
+			</div>
+		</div>
+	</div>
+	<script>
+		var rand=Math.floor(Math.random() * 10 + 1);
+		document.getElementById('random').innerHTML = rand;
+		document.getElementById('number').oninput=function() {
+			var input = this.value;
+		
+		switch(rand){
+			case 1:
+			if (input == "a" || input == "q" || input == "z"){
+			document.body.style.background = "green";
+			}
+			else if (input == "") {
+				document.body.style.background = "white";
+			}
+			else document.body.style.background = "red";
+			break;
+			case 2:
+			if (input == "w" || input == "s" || input == "x"){
+			document.body.style.background = "green";
+			}
+			else if (input == "") {
+				document.body.style.background = "white";
+			}
+			else document.body.style.background = "red";
+			break;
+			case 3:
+			if (input == "e" || input == "d" || input == "c"){
+			document.body.style.background = "green";
+			}
+			else if (input == "") {
+				document.body.style.background = "white";
+			}
+			else document.body.style.background = "red";
+			break;
+			case 4:
+			if (input == "r" || input == "f" || input == "v"){
+			document.body.style.background = "green";
+			}
+			else if (input == "") {
+				document.body.style.background = "white";
+			}
+			else document.body.style.background = "red";
+			break;
+			case 5:
+			if (input == "t" || input == "g" || input == "b"){
+			document.body.style.background = "green";
+			}
+			else if (input == "") {
+				document.body.style.background = "white";
+			}
+			else document.body.style.background = "red";
+			break;
+			case 6:
+			if (input == "y" || input == "h" || input == "n"){
+			document.body.style.background = "green";
+			}
+			else if (input == "") {
+				document.body.style.background = "white";
+			}
+			else document.body.style.background = "red";
+			break;
+			case 7:
+			if (input == "u" || input == "j" || input == "m"){
+			document.body.style.background = "green";
+			}
+			else if (input == "") {
+				document.body.style.background = "white";
+			}
+			else document.body.style.background = "red";
+			break;
+			case 8:
+			if (input == "i" || input == "k" || input == ","){
+			document.body.style.background = "green";
+			}
+			else if (input == "") {
+				document.body.style.background = "white";
+			}
+			else document.body.style.background = "red";
+			break;
+			case 9:
+			if (input == "o" || input == "l" || input == "."){
+			document.body.style.background = "green";
+			}
+			else if (input == "") {
+				document.body.style.background = "white";
+			}
+			else document.body.style.background = "red";
+			break;
+			case 10:
+			if (input == "p" || input == ";" || input == "/"){
+			document.body.style.background = "green";
+			}
+			else if (input == "") {
+				document.body.style.background = "white";
+			}
+			else document.body.style.background = "red";
+			break;
+		}
+};	
+	</script>
+</body>
+</html>
